@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap-theme.min.css"
+        integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <title>Eye for Blind</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm"><h1>Eye for Blind</h1></div>
+            <div class="col-sm">
+                <form action="/predict" method="post" enctype="multipart/form-data">
+                    <input type="file" name="file" />
+                    <button type="submit">Generate Caption</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
