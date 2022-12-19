@@ -11,3 +11,5 @@ A custom Deep Learning Model is built using Tensorflow and Keras based on Encode
 Libraries : Keras, Tensorflow
 
 Concepts : Feature Extraction using ImageNet, GRU, Bahdanau Attention Mechanism, Greedy Search, Blue Score
+
+Run Code : python main.py and open localhost:5000
